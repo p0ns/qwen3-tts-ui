@@ -5,6 +5,8 @@ A desktop UI for Qwen3-TTS text-to-speech models running locally on Apple Silico
 ![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-blue)
 ![macOS](https://img.shields.io/badge/platform-macOS-lightgrey)
 
+<img src="screenshot.png" alt="qwen3-tts-ui" width="460">
+
 ## Features
 
 - **CustomVoice** — Pick from built-in speaker voices with emotion/style instruct prompts
