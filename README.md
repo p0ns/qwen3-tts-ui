@@ -18,7 +18,7 @@ A desktop UI for Qwen3-TTS text-to-speech models running locally on Apple Silico
 
 - macOS with Apple Silicon (M1+)
 - Python 3.13+
-- [uv](https://docs.astral.sh/uv/)
+- [uv](https://docs.astral.sh/uv/) — install with `curl -LsSf https://astral.sh/uv/install.sh | sh`
 
 ## Setup
 
@@ -33,7 +33,7 @@ Models are downloaded automatically from Hugging Face on first use.
 ## Usage
 
 ```bash
-uv run python main.py
+uv run qwen3-tts-ui
 ```
 
 ## Models
