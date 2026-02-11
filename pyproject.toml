@@ -1,0 +1,16 @@
+[project]
+name = "qwen3-tts-ui"
+version = "0.1.0"
+description = "A desktop UI for Qwen3-TTS text-to-speech models using MLX on Apple Silicon"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mlx==0.30.3",
+    "mlx-audio",
+    "mlx-lm==0.30.5",
+    "mlx-metal==0.30.3",
+    "pyside6>=6.10.2",
+]
+
+[tool.uv.sources]
+mlx-audio = { git = "https://github.com/Blaizzy/mlx-audio.git", rev = "491d1cfea1f1a32c0c6c884e429e704d64880a79" }
